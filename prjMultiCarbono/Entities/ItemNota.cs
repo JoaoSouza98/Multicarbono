@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace prjMultiCarbono.Entities
+﻿namespace prjMultiCarbono.Entities
 {
-    public class ItemNota
+    public class ItemNota : Entity
     {
-        public int Codigo { get; set; }
         public int Quantidade { get; set; }
         public string ValorDesconto { get; set; }
         public int Cfop { get; set; }
 
         public Produto Produto { get; set; }
+        public int IdProduto { get; set; }
+
+        public NotaFiscal NotaFiscal { get; set; }
+        public int IdNotaFiscal { get; set; }
     }
 }

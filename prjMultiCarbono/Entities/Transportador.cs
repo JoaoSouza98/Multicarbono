@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prjMultiCarbono.Entities
 {
-    public class Transportador
+    public class Transportador : Entity
     {
         public string Cnpj { get; set; }
         public string RazaoSocial { get; set; }
@@ -14,6 +14,7 @@ namespace prjMultiCarbono.Entities
         public int CodAntt { get; set; }
         public string InscricaoEstadual { get; set; }
 
-        public IEndereco Endereco { get; set; }
+        public Endereco Endereco { get; set; }
+        public int IdEndereco { get; set; }
     }
 }

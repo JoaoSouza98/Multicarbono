@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace prjMultiCarbono.Entities
 {
-    public class NotaFiscal
+    public class NotaFiscal : Entity
     {
         public int NumNotaFiscal { get; set; }
         public string ChaveAcesso { get; set; }

@@ -55,15 +55,19 @@
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Contato.cs" />
-    <Compile Include="Entities\IEndereco.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\Endereco.cs" />
     <Compile Include="Entities\EnderecoCliente.cs" />
     <Compile Include="Entities\Enums\Sexo.cs" />
     <Compile Include="Entities\Enums\SituacaoCliente.cs" />
+    <Compile Include="Entities\Enums\SituacaoFuncionario.cs" />
+    <Compile Include="Entities\Enums\UF.cs" />
     <Compile Include="Entities\Funcionario.cs" />
+    <Compile Include="Entities\ILogavel.cs" />
     <Compile Include="Entities\ItemNota.cs" />
     <Compile Include="Entities\ItemPedido.cs" />
-    <Compile Include="Entities\MaisCarbono.cs" />
     <Compile Include="Entities\NotaFiscal.cs" />
+    <Compile Include="Entities\Pais.cs" />
     <Compile Include="Entities\Telefone.cs" />
     <Compile Include="Entities\Transportador.cs" />
     <Compile Include="Entities\Veiculo.cs" />

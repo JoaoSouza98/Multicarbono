@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace prjMultiCarbono.Entities
 {
-    public class Pedido
+    public class Pedido : Entity
     {
         public int numPedido { get; set; }
         public string DtEmissao { get; set; }
@@ -16,9 +12,10 @@ namespace prjMultiCarbono.Entities
         public string TipoFrete { get; set; }
 
         public Cliente Cliente { get; set; }
+        public int IdCliente { get; set; }
 
         public List<ItemPedido> ListaItemPedido { get; set; }
-
+        public List<int> ListaIdItemPedido { get; set; }
 
     }
 }

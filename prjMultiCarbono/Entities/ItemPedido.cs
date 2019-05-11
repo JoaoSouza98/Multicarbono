@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace prjMultiCarbono.Entities
+﻿namespace prjMultiCarbono.Entities
 {
-    public class ItemPedido
+    public class ItemPedido : Entity
     {
         public int Quantidade { get; set; }
         public float ValorDesconto { get; set; }
 
         public Produto Produto { get; set; }
+        public int IdProduto { get; set; }
+
+        public Pedido Pedido { get; set; }
+        public int IdPedido { get; set; }
+
+
     }
 }

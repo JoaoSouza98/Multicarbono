@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace prjMultiCarbono.Entities
 {
-    public class Produto
+    public class Produto : Entity
     {
         public int CodProduto { get; set; }
         public string Descricao { get; set; }

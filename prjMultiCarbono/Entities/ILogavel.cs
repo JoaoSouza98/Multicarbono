@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace prjMultiCarbono.Entities
 {
-    public class Telefone : Entity
+    interface ILogavel
     {
-        public int Numero { get; set; }
+        bool Login(string login, string senha);
     }
 }
